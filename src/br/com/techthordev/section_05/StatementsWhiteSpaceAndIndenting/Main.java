@@ -1,4 +1,4 @@
-package br.com.techthordev._02_keywords_and_expressions;
+package br.com.techthordev.section_05.StatementsWhiteSpaceAndIndenting;
 
 public class Main {
 
