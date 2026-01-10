@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JUnit 6 API
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:6.0.2'
+    // JUnit 6 Engine
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:6.0.2'
+    // Parameterized Tests
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:6.0.2'
+    // WICHTIG: JUnit Platform Launcher
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.11.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+sourceSets { 
+    main { 
+        java { 
+            include 'br/com/techthordev/section_05/exercises/**' 
+        } 
+    } 
+    test { 
+        java { 
+            include 'br/com/techthordev/section_05/exercises/**' 
+        } 
+    } 
+}
