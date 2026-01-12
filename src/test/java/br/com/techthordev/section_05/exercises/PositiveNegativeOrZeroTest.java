@@ -26,7 +26,7 @@ public class PositiveNegativeOrZeroTest {
 
     /**
      * Sets up the environment before each test.
-     * Redirects System.out to the custom ByteArrayOutputStream.
+     * Redirects System. out to the custom ByteArrayOutputStream.
      */
     @BeforeEach
     public void setUp() {
@@ -35,7 +35,7 @@ public class PositiveNegativeOrZeroTest {
 
     /**
      * Tears down the environment after each test.
-     * Restores the original System.out stream.
+     * Restores the original System. out stream.
      */
     @AfterEach
     public void tearDown() {

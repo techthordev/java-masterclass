@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.techthordev.section_05.exercises.SpeedConverterTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-01-12T17:27:21.047Z" hostname="tfeydev" time="0.08">
+  <properties/>
+  <testcase name="Test Case: printConversion with invalid value" classname="br.com.techthordev.section_05.exercises.SpeedConverterTest" time="0.017"/>
+  <testcase name="km/h: &quot;1.5&quot; -&gt; output: &quot;1.5 km/h = 1 mi/h&quot;" classname="br.com.techthordev.section_05.exercises.SpeedConverterTest" time="0.015"/>
+  <testcase name="km/h: &quot;10.25&quot; -&gt; output: &quot;10.25 km/h = 6 mi/h&quot;" classname="br.com.techthordev.section_05.exercises.SpeedConverterTest" time="0.001"/>
+  <testcase name="km/h: &quot;25.42&quot; -&gt; output: &quot;25.42 km/h = 16 mi/h&quot;" classname="br.com.techthordev.section_05.exercises.SpeedConverterTest" time="0.001"/>
+  <testcase name="km/h: &quot;75.114&quot; -&gt; output: &quot;75.114 km/h = 47 mi/h&quot;" classname="br.com.techthordev.section_05.exercises.SpeedConverterTest" time="0.001"/>
+  <testcase name="km/h: &quot;1.5&quot; -&gt; mi/h: &quot;1&quot;" classname="br.com.techthordev.section_05.exercises.SpeedConverterTest" time="0.003"/>
+  <testcase name="km/h: &quot;10.25&quot; -&gt; mi/h: &quot;6&quot;" classname="br.com.techthordev.section_05.exercises.SpeedConverterTest" time="0.001"/>
+  <testcase name="km/h: &quot;-5.6&quot; -&gt; mi/h: &quot;-1&quot;" classname="br.com.techthordev.section_05.exercises.SpeedConverterTest" time="0.001"/>
+  <testcase name="km/h: &quot;25.42&quot; -&gt; mi/h: &quot;16&quot;" classname="br.com.techthordev.section_05.exercises.SpeedConverterTest" time="0.001"/>
+  <testcase name="km/h: &quot;75.114&quot; -&gt; mi/h: &quot;47&quot;" classname="br.com.techthordev.section_05.exercises.SpeedConverterTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
